@@ -21,7 +21,8 @@ Navigate to the project's directory and install dependencies:
   yarn install
 ```
 
-Create a .env file in the project's root directory and add your Discord bot token, OpenAI API key, and your target Discord channel's ID:
+Create a .env file in the project's root directory.
+Add your Discord bot token and Google Translate API key
 
 ```bash
   DISCORD_BOT_TOKEN=your_discord_bot_token
