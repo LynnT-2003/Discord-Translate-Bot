@@ -1,6 +1,7 @@
 # Discord-GPT-Bot-3.5
 
 A Discord chatbot that translates user messages starting with !translate.
+Can be easily configured to owner's preferences in the source code.
 
 ## Installation and Setup
 
@@ -23,9 +24,11 @@ Navigate to the project's directory and install dependencies:
 Create a .env file in the project's root directory and add your Discord bot token, OpenAI API key, and your target Discord channel's ID:
 
 ```bash
-  TOKEN=your_discord_bot_token
-  API_KEY=your_openai_api_key
-  CHANNEL_ID=target_channel_id
+  DISCORD_BOT_TOKEN=your_discord_bot_token
+```
+
+```bash
+  GOOGLE_TRANSLATE_API_KEY=your_google_translate_api_key
 ```
 
 Run the bot:
@@ -37,5 +40,5 @@ Run the bot:
 or:
 
 ```bash
-  node index.js
+  node src/index.js
 ```
