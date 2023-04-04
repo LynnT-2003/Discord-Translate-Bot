@@ -1,4 +1,4 @@
-# Discord-GPT-Bot-3.5
+# Discord-Translate-Bot
 
 A Discord chatbot that translates user messages starting with !translate.
 Can be easily configured to owner's preferences in the source code.
