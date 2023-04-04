@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/LynnT-2003/Discord-Translate-Bot/issues"
   },
-  "homepage": "https://github.com/LynnT-2003/Discord-Translate-Bot#readme"
+  "homepage": "https://github.com/LynnT-2003/Discord-Translate-Bot#readme",
+  "dependencies": {
+    "discord.js": "^14.9.0",
+    "google-translate-api": "^2.3.0"
+  }
 }
